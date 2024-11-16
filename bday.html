@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #FFEBF0; /* Light pink background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        h1 {
+            color: #FF6F91; /* Soft pink for the title */
+            font-size: 3rem;
+            margin-top: 0;
+            padding: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .content {
+            background-color: #FFCCE1; /* Lighter pink for the main content */
+            border-radius: 15px;
+            padding: 40px;
+            width: 90%;
+            max-width: 600px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .reason-button {
+            background-color: #FF6F91; /* Pink button */
+            color: white;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 25px;
+            padding: 15px 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 30px;
+        }
+
+        .reason-button:hover {
+            background-color: #FF4C6E; /* Darker pink when hovered */
+        }
+
+        .reasons {
+            display: none;
+            background-color: #FFEBF0;
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .reason {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+            color: #FF6F91;
+        }
+
+        .heart {
+            font-size: 2rem;
+            color: #FF4C6E;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Happy Birthdayyyy JANUUUUU!</h1>
+    
+    <div class="content">
+        <p>MY LOVE,</p>
+        <p>Click the button below to see <strong>17 reasons I love you</strong>!</p>
+
+        <button class="reason-button" onclick="showReasons()">Show My Reasons</button>
+
+        <div class="reasons" id="reasonsList">
+            <h2>17 Reasons I Love You:</h2>
+            <ul>
+                <li class="reason">1. You met me at the perfect time. ❤️</li>
+                <li class="reason">2. You undertsand me, SOULMATES for a reason. ❤️</li>
+                <li class="reason">3. A lot of people came and went but we always stuck together. ❤️</li>
+                <li class="reason">4. You have the prettiest smile ❤️</li>
+                <li class="reason">5. Listening to your voice after days makes me feel at home. ❤️</li>
+                <li class="reason">6. Would not have survived MSU without you. ❤️</li>
+                <li class="reason">7. You always write the best paragraphs, MY FOREVER HYPE GIRL. ❤️</li>
+                <li class="reason">8. You don't judge me. ❤️</li>
+                <li class="reason">9. You're the best listener and give such great advice(IYKYK) and compliments. ❤️</li>
+                <li class="reason">10. Even though we don't talk everyday ik your'e always there. ❤️</li>
+                <li class="reason">11. You are always there when I need you most. ❤️</li>
+                <li class="reason">12. How can i forget to mention your prettyyyy face. ❤️</li>
+                <li class="reason">13. You're always you, crazy silly cute. ❤️</li>
+                <li class="reason">14. You're so strong and brave, you've gone through so much still look at you, still slayyinggg. ❤️</li>
+                <li class="reason">15. You love ROHIT SARAF. ❤️</li>
+                <li class="reason">16. You have bestest and cutest name: JANU . ❤️</li>
+                <li class="reason">17. You make my life brighter just by being in it. ❤️</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function showReasons() {
+            document.getElementById('reasonsList').style.display = 'block';  // Show the reasons
+        }
+    </script>
+
+</body>
+</html>
